@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    >
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:background="@drawable/sender_shape"
+        android:layout_marginRight="@dimen/_10sdp"
+        android:layout_marginLeft="@dimen/_30sdp"
+        android:layout_marginTop="@dimen/_10sdp"
+        android:orientation="vertical">
+        <TextView
+            android:id="@+id/message"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_marginLeft="@dimen/_5sdp"
+            android:layout_marginRight="@dimen/_5sdp"
+            android:layout_marginTop="@dimen/_5sdp"
+            android:layout_centerVertical="true"
+            android:layout_gravity="right"
+            android:padding="@dimen/_2sdp"
+            android:text="helloo check "
+            android:textColor="@color/white"
+            android:textSize="@dimen/_15sdp" />
+
+
+    </LinearLayout>
+
+
+</RelativeLayout>

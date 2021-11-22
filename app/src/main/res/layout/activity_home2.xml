@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/h1"
+    tools:context=".activities.Home2">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="350dp"
+        android:layout_marginTop="340dp"
+        android:layout_marginBottom="0dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:orientation="vertical"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/writeup"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="@dimen/_25sdp"
+            android:padding="@dimen/_10sdp"
+            android:layout_marginRight="@dimen/_25sdp"
+            android:text="Connect with the people even when you are thousands of distance apart"
+            android:textAlignment="center"
+            android:textColor="#ffff"
+            android:textSize="18dp" />
+
+        <TextView
+            android:id="@+id/writeup2"
+            android:padding="@dimen/_10sdp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="@dimen/_25sdp"
+            android:layout_marginRight="@dimen/_25sdp"
+            android:layout_marginTop="@dimen/_15sdp"
+            android:text="To start the video Meet user must authenticate and verify the email "
+            android:textAlignment="center"
+            android:textColor="#ffff"
+            android:textSize="18dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/_15sdp"
+            android:layout_gravity="center"
+            android:layout_marginLeft="@dimen/_10sdp"
+            android:layout_weight="2"
+            android:orientation="horizontal">
+            <Button
+                android:id="@+id/signIn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/design_page_light"
+                android:layout_gravity="center"
+                android:layout_margin="@dimen/_20sdp"
+                android:textSize="@dimen/_15sdp"
+                android:text="SignIn"
+                android:layout_marginBottom="30dp"
+                />
+            <Button
+                android:id="@+id/signUp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/_20sdp"
+                android:background="@drawable/design_page_light"
+                android:layout_gravity="center"
+                android:textSize="@dimen/_15sdp"
+                android:text="SignUp"
+                android:layout_marginBottom="30dp"
+                />
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
